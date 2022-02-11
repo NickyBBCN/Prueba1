@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-02-2022 04:44</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-02-2022 05:49</span>
     <br style="clear:left"/>
 </div>
 
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">search for a automation course
+                                <span class="failing-color">search for a automation course
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -198,21 +198,60 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>ProyectosPrueba.tasks.Login.performAs(Login.java:18)<br />certification.ProyectoPrueba.stepdefinitions.StepDefinitions.thanNicoleWantsToLearnAutomationAtTheAcademyChoucair(StepDefinitions.java:25)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //div[@class='d-none d-lg-block']//strong[contains(text(),'Join Today')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>ProyectosPrueba.tasks.Login.performAs(Login.java :18)<br />certification.ProyectoPrueba.stepdefinitions.StepDefinitions.thanNicoleWantsToLearnAutomationAtTheAcademyChoucair(StepDefinitions.java :25)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource173386100089005908.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="bdb5ceddd0722e1b96b07e1bef0c8ce9a59cbc186f04dd31f4a1fd02ad2849f6.png" title=" Given than Nicole wants to learn automation at the academy choucair" width="1366"/>
-                <img src="bdb5ceddd0722e1b96b07e1bef0c8ce9a59cbc186f04dd31f4a1fd02ad2849f6.png" title=" Nicole open up" width="1366"/>
-                <img src="bdb5ceddd0722e1b96b07e1bef0c8ce9a59cbc186f04dd31f4a1fd02ad2849f6.png" title=" Nicole opens the Academy page" width="1366"/>
-                <img src="bdb5ceddd0722e1b96b07e1bef0c8ce9a59cbc186f04dd31f4a1fd02ad2849f6.png" title=" Nicole open up (completed)" width="1366"/>
-                <img src="8b7311f7cf48c059e86e7c7ffcb7e75e84db715431b4f4805503926fc87eb1be.png" title=" Nicole login" width="1366"/>
-                <img src="8b7311f7cf48c059e86e7c7ffcb7e75e84db715431b4f4805503926fc87eb1be.png" title=" Nicole clicks on Button that shows us the form to login" width="1366"/>
-                <img src="e1186518de865533c98a6514a549a7f0cc8cfbfc220f067316c871a2ed3d4030.png" title=" Nicole enters 'IngresaTuUsuario' into where do we write the user" width="1366"/>
-                <img src="7185374e33dc8c478ccd0e22fcf2f3d35200ecedadbd523aed70f4f34493fd89.png" title=" Nicole enters 'IngresaTuContrase&ntilde;a' into where do we write the password" width="1366"/>
-                <img src="8c57a882f8742abaf0d114fc8177b6923f58f48ddb15b6ef8fd19d9e678b9ec3.png" title=" Nicole clicks on button to confirm login" width="1366"/>
-                <img src="8c57a882f8742abaf0d114fc8177b6923f58f48ddb15b6ef8fd19d9e678b9ec3.png" title=" Given than Nicole wants to learn automation at the academy choucair" width="1366"/>
-                <img src="8c57a882f8742abaf0d114fc8177b6923f58f48ddb15b6ef8fd19d9e678b9ec3.png" title=" Nicole login (completed)" width="1366"/>
-                <img src="8c57a882f8742abaf0d114fc8177b6923f58f48ddb15b6ef8fd19d9e678b9ec3.png" title=" When he search for the course Recursos Automatizacion Bancolombia on the choucair academy plataform" width="1366"/>
-                <img src="8c57a882f8742abaf0d114fc8177b6923f58f48ddb15b6ef8fd19d9e678b9ec3.png" title=" Nicole search: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="2c6db637a2973135d62d5f30d4f83b87e0a129170890773650d8280cdbeacac4.png" title=" Given than Nicole wants to learn automation at the academy choucair" width="1366"/>
+                <img src="2c6db637a2973135d62d5f30d4f83b87e0a129170890773650d8280cdbeacac4.png" title=" Nicole open up" width="1366"/>
+                <img src="2c6db637a2973135d62d5f30d4f83b87e0a129170890773650d8280cdbeacac4.png" title=" Nicole opens the Academy page" width="1366"/>
+                <img src="2c6db637a2973135d62d5f30d4f83b87e0a129170890773650d8280cdbeacac4.png" title=" Nicole open up (completed)" width="1366"/>
+                <img src="2c6db637a2973135d62d5f30d4f83b87e0a129170890773650d8280cdbeacac4.png" title=" Nicole login" width="1366"/>
+                <img src="2c6db637a2973135d62d5f30d4f83b87e0a129170890773650d8280cdbeacac4.png" title=" Nicole clicks on Button that Join Today: <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

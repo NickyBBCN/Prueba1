@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Academy chicair" skipped="0" tests="1" time="66.3" timestamp="2022-02-11 04:44:14"><testcase name="search for a automation course"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Academy chicair" skipped="0" tests="1" time="1.1" timestamp="2022-02-11 06:28:07"><testcase name="search for a automation course"><error message="No such field ProyectosPrueba.userinterface.AcademyData.firstname" type="cucumber.runtime.CucumberException">No such field ProyectosPrueba.userinterface.AcademyData.firstname</error><system-err>No such field ProyectosPrueba.userinterface.AcademyData.firstname&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

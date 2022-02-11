@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09de62c-61e0-4bdf-9608-9bc7928e5311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ProyectosPrueba/tasks/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ProyectosPrueba/tasks/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ProyectosPrueba/userinterface/AcademyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ProyectosPrueba/userinterface/AcademyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ProyectosPrueba/userinterface/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ProyectosPrueba/userinterface/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/certification/ProyectoPrueba/stepdefinitions/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/certification/ProyectoPrueba/stepdefinitions/StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/ProyectosPrueba.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/ProyectosPrueba.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7a543374c7e8c2f430e5ac488f5e5d8f36d1d318c4222d4d76fe66409370da68.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7a543374c7e8c2f430e5ac488f5e5d8f36d1d318c4222d4d76fe66409370da68.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7a543374c7e8c2f430e5ac488f5e5d8f36d1d318c4222d4d76fe66409370da68.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7a543374c7e8c2f430e5ac488f5e5d8f36d1d318c4222d4d76fe66409370da68.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7a543374c7e8c2f430e5ac488f5e5d8f36d1d318c4222d4d76fe66409370da68_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7a543374c7e8c2f430e5ac488f5e5d8f36d1d318c4222d4d76fe66409370da68_screenshots.html" afterDir="false" />
@@ -29,10 +39,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/runners/RunnerTags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="221">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/2.4.0/cfe883bdd4868c9b6217b6bbc05b1a72de0e3c7f/cucumber-junit-2.4.0-sources.jar!/cucumber/api/junit/Cucumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="e#5099#5100#0" expanded="true" />
+                <element signature="e#5134#5135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,10 +64,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="384">
+              <caret line="29" column="91" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="187">
               <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,23 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/SearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/OpenUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="112">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,16 +193,17 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature" />
         <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/OpenUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/runners/RunnerTags.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/questions/Answer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java" />
       </list>
     </option>
   </component>
@@ -197,6 +247,45 @@
               <item name="ProyectosPrueba" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProyectosPrueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectosPrueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectosPrueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectosPrueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectosPrueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectosPrueba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectosPrueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectosPrueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectosPrueba" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectosPrueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectosPrueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectosPrueba" type="462c0819:PsiDirectoryNode" />
+              <item name="userinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectosPrueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectosPrueba" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -232,8 +321,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644574218594" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644578866472" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proyecto_/LL" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -294,34 +383,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 25m 33s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 25m 40s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 26m 53s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 27m 03s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 31m 08s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 31m 22s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 35m 38s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 35m 51s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerTags - 2022.02.11 at 03h 42m 30s.xml">
-      <configuration name="RunnerTags" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerTags - 2022.02.11 at 04h 45m 27s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 05h 34m 36s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 05h 50m 06s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 05h 50m 17s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 06h 03m 05s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 06h 03m 18s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 06h 07m 18s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 06h 07m 30s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 06h 15m 33s.xml">
+      <configuration name="RunnerTags" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTags - 2022.02.11 at 06h 15m 44s.xml">
       <configuration name="RunnerTags" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -329,7 +418,7 @@
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21722364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16323908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,18 +427,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.48317632" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.71979433" visible="true" weight="0.48317632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4993573" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50064266" side_tool="true" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.28020567" side_tool="true" visible="true" weight="0.48317632" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.2705249" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32969153" />
@@ -420,43 +509,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/runners/RunnerTags.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -467,20 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="187">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -489,18 +531,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/OpenUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="112">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Search.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/runners/RunnerTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/2.4.0/cfe883bdd4868c9b6217b6bbc05b1a72de0e3c7f/cucumber-junit-2.4.0-sources.jar!/cucumber/api/junit/Cucumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#5099#5100#0" expanded="true" />
+            <element signature="e#5134#5135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/certification.ProyectoPrueba/stepdefinitions/StepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="91" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProyectosPrueba.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/userinterface/AcademyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProyectosPrueba/tasks/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

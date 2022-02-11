@@ -1,42 +1,41 @@
 package certification.ProyectoPrueba.stepdefinitions;
 
 
-import ProyectosPrueba.questions.Answer;
 import ProyectosPrueba.tasks.Login;
 import ProyectosPrueba.tasks.OpenUp;
 import ProyectosPrueba.tasks.Search;
+import ProyectosPrueba.userinterface.AcademyData;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
+import java.util.List;
 
 public class StepDefinitions {
     @Before
     public void setStage(){
         OnStage.setTheStage(new OnlineCast());
     }
-    @Given("^than Nicole wants to learn automation at the academy choucair$")
-    public void thanNicoleWantsToLearnAutomationAtTheAcademyChoucair() {
-        // Write code here that turns the phrase above into concrete actions
+    @Given("^Let's do the initial automation Utest$")
+    public void lets_do_the_initial_automation_utest(List<AcademyData>academyData) throws Exception  {
         OnStage.theActorCalled("Nicole").wasAbleTo(OpenUp.thePage(),(Login.OnThePage()));
 
     }
 
-    @When("^he search for the course(.*) on the choucair academy plataform$")
-    public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlataform(String course) {
-        // Write code here that turns the phrase above into concrete actions
-    OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
+    @When("^ we pass the first log filter$")
+    public void we_pass_the_first_log_filter( List<AcademyData>academyData) throws Exception{
+        OnStage.theActorInTheSpotlight().attemptsTo(Search.the(academyData.get(0).getDate()));
     }
 
-    @Then("^he finds the course called resources(.*)$")
-    public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(String question) {
-        // Write code here that turns the phrase above into concrete actions
-       // OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
+    @Then("^Tell us about your devices(.*)$")
+    public void tell_us_about_your_devices( List<AcademyData>academyData) throws Exception {
+        OnStage.theActorInTheSpotlight().attemptsTo(Search.the(academyData.get(0).getEmail()));
+    }
+
 
     }
 
-}
+
